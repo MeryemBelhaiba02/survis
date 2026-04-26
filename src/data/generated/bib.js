@@ -1,4 +1,4 @@
-var defined_tags = {
+defined_tags = {
   'survey': {color: '#1f4e79'},
   'authentication': {color: '#2e75b6'},
   'CAN-bus': {color: '#375623'},
@@ -11,4 +11,110 @@ var defined_tags = {
   'in-vehicle-network': {color: '#70ad47'}
 };
 
-var bib = "@article{lotto2024survey,\n  author    = {Lotto, Alessandro and Marchiori, Francesco and Brighente, Alessandro and Conti, Mauro},\n  title     = {A Survey and Comparative Analysis of Security Properties of {CAN} Authentication Protocols},\n  journal   = {IEEE Communications Surveys and Tutorials},\n  year      = {2024},\n  volume    = {27},\n  number    = {4},\n  pages     = {2470--2504},\n  doi       = {10.1109/COMST.2024.3486367},\n  abstract  = {Modern cars are increasingly complex and reliant on electronic components, making them prime targets for attackers. The Controller Area Network (CAN) is the most widely used in-vehicle protocol, but lacks authentication. This paper comprehensively reviews and compares 15 prominent CAN authentication protocols, evaluating their security properties, strengths, weaknesses, and suitability for implementation.},\n  keywords  = {survey, authentication, CAN-bus, protocol, lightweight-cryptography, in-vehicle-network}\n}\n\n@article{bozdal2020evaluation,\n  author    = {Bozdal, Mehmet and Samie, Mohammad and Aslam, Sohaib and Jennions, Ian},\n  title     = {Evaluation of {CAN} Bus Security Challenges},\n  journal   = {Sensors},\n  year      = {2020},\n  volume    = {20},\n  number    = {8},\n  pages     = {2364},\n  doi       = {10.3390/s20082364},\n  abstract  = {This paper analyses the CAN bus comprehensively to provide an outlook on security concerns. It presents the security vulnerabilities of the CAN protocol and examines four classes of countermeasure: network segmentation, encryption, authentication, and intrusion detection.},\n  keywords  = {survey, CAN-bus, attack, authentication, intrusion-detection, in-vehicle-network}\n}\n\n@inproceedings{koscher2010experimental,\n  author    = {Koscher, Karl and Czeskis, Alexei and Roesner, Franziska and Patel, Shwetak and Kohno, Tadayoshi and Checkoway, Stephen and McCoy, Damon and Kantor, Brian and Anderson, Danny and Shacham, Hovav and Savage, Stefan},\n  title     = {Experimental Security Analysis of a Modern Automobile},\n  booktitle = {2010 IEEE Symposium on Security and Privacy},\n  year      = {2010},\n  pages     = {447--462},\n  doi       = {10.1109/SP.2010.34},\n  abstract  = {This paper presents the first comprehensive experimental security analysis of a modern production automobile. The authors demonstrate that an attacker with CAN bus access can completely compromise safety-critical systems including braking, engine control, and steering.},\n  keywords  = {attack, CAN-bus, in-vehicle-network, authentication}\n}\n\n@article{woo2015practical,\n  author    = {Woo, Samuel and Jo, Hyo Jin and Lee, Dong Hoon},\n  title     = {A Practical Wireless Attack on the Connected Car and Security Protocol for In-Vehicle CAN},\n  journal   = {IEEE Transactions on Intelligent Transportation Systems},\n  year      = {2015},\n  volume    = {16},\n  number    = {2},\n  pages     = {993--1006},\n  doi       = {10.1109/TITS.2014.2351612},\n  abstract  = {This paper demonstrates that long-range wireless attacks on the CAN bus are physically possible using a real vehicle and a malicious smartphone application. The authors propose a challenge-response HMAC authentication protocol for CAN. Winner of the IEEE T-ITS Best Paper Award.},\n  keywords  = {attack, authentication, CAN-bus, protocol, in-vehicle-network}\n}\n\n@inproceedings{radu2016leia,\n  author    = {Radu, Andreea-Ina and Garcia, Flavio D.},\n  title     = {{LeiA}: A Lightweight Authentication Protocol for {CAN}},\n  booktitle = {Computer Security -- ESORICS 2016},\n  year      = {2016},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {9879},\n  pages     = {283--300},\n  publisher = {Springer},\n  doi       = {10.1007/978-3-319-45741-3_15},\n  abstract  = {LeiA is the first AUTOSAR-compliant lightweight authentication protocol for the CAN bus. The protocol uses a counter-based HMAC scheme with per-message key evolution, providing forward security while remaining fully backward compatible.},\n  keywords  = {authentication, protocol, CAN-bus, lightweight-cryptography, in-vehicle-network}\n}\n\n@article{groza2017libra,\n  author    = {Groza, Bogdan and Murvay, Stefan and Van Herrewege, Anthony and Verbauwhede, Ingrid},\n  title     = {{LiBrA-CAN}: Lightweight Broadcast Authentication for Controller Area Networks},\n  journal   = {ACM Transactions on Embedded Computing Systems},\n  year      = {2017},\n  volume    = {16},\n  number    = {3},\n  pages     = {90:1--90:28},\n  doi       = {10.1145/3056506},\n  abstract  = {LiBrA-CAN is a broadcast authentication protocol for CAN using key splitting across groups of nodes and MAC mixing via systems of linear equations. Implemented and evaluated on Infineon TriCore automotive-grade controllers.},\n  keywords  = {authentication, protocol, CAN-bus, lightweight-cryptography, in-vehicle-network}\n}\n\n@article{groza2018security,\n  author    = {Groza, Bogdan and Murvay, Pal-Stefan},\n  title     = {Security Solutions for the Controller Area Network: Bringing Authentication to In-Vehicle Networks},\n  journal   = {IEEE Vehicular Technology Magazine},\n  year      = {2018},\n  volume    = {13},\n  number    = {1},\n  pages     = {40--47},\n  doi       = {10.1109/MVT.2017.2736344},\n  abstract  = {This paper surveys a decade of CAN authentication and security proposals, arguing the field has reached maturity for standardisation. It evaluates the most promising cryptographic, physical-layer, and hybrid approaches against five industrial deployment criteria.},\n  keywords  = {survey, authentication, CAN-bus, protocol, in-vehicle-network}\n}\n\n@article{kim2021cybersecurity,\n  author    = {Kim, Kyounggon and Kim, Jun Seok and Jeong, Seonghoon and Park, Jo-Hee and Kim, Huy Kang},\n  title     = {Cybersecurity for Autonomous Vehicles: Review of Attacks and Defense},\n  journal   = {Computers and Security},\n  year      = {2021},\n  volume    = {103},\n  pages     = {102150},\n  doi       = {10.1016/j.cose.2020.102150},\n  abstract  = {A systematic review of 151 papers spanning 2008 to 2019 on attacks and defences for autonomous vehicles. Classifies attacks into automotive control systems, autonomous driving components, and V2X communications.},\n  keywords  = {survey, autonomous-vehicles, attack, intrusion-detection, CAN-bus, VANET}\n}\n\n@article{aliwa2021cyberattacks,\n  author    = {Aliwa, Emad and Rana, Omer and Perera, Charith and Burnap, Peter},\n  title     = {Cyberattacks and Countermeasures for In-Vehicle Networks},\n  journal   = {ACM Computing Surveys},\n  year      = {2021},\n  volume    = {54},\n  number    = {1},\n  pages     = {21:1--21:37},\n  doi       = {10.1145/3431233},\n  abstract  = {A comprehensive survey covering CAN, LIN, and FlexRay protocols. Introduces a threat classification framework and evaluates countermeasures across all three bus types. Published in ACM Computing Surveys.},\n  keywords  = {survey, CAN-bus, attack, authentication, intrusion-detection, in-vehicle-network}\n}\n\n@article{hasrouny2017vanet,\n  author    = {Hasrouny, Hamssa and Samhat, Abed Ellatif and Bassil, Carole and Laouiti, Anis},\n  title     = {{VANet} Security Challenges and Solutions: A Survey},\n  journal   = {Vehicular Communications},\n  year      = {2017},\n  volume    = {7},\n  pages     = {7--20},\n  doi       = {10.1016/j.vehcom.2017.01.002},\n  abstract  = {A comprehensive survey of VANET security covering attack classification and proposed solutions. Recommended by supervisor Dr. Julie Greensmith to contextualise CAN authentication within the broader vehicular security landscape.},\n  keywords  = {survey, VANET, attack, authentication, autonomous-vehicles}\n}\n";
+bib = `
+
+@article{lotto2024survey,
+  author = {Lotto, Alessandro and Marchiori, Francesco and Brighente, Alessandro and Conti, Mauro},
+  title = {A Survey and Comparative Analysis of Security Properties of CAN Authentication Protocols},
+  journal = {IEEE Communications Surveys and Tutorials},
+  year = {2024},
+  volume = {27},
+  number = {4},
+  pages = {2470-2504},
+  keywords = {survey, authentication, CAN-bus, protocol, in-vehicle-network}
+}
+
+@article{bozdal2020evaluation,
+  author = {Bozdal, Mehmet and Samie, Mohammad and Aslam, Sohaib and Jennions, Ian},
+  title = {Evaluation of CAN Bus Security Challenges},
+  journal = {Sensors},
+  year = {2020},
+  volume = {20},
+  number = {8},
+  pages = {2364},
+  keywords = {survey, CAN-bus, attack, authentication, intrusion-detection, in-vehicle-network}
+}
+
+@inproceedings{koscher2010experimental,
+  author = {Koscher, Karl and Czeskis, Alexei and Roesner, Franziska and Kohno, Tadayoshi and Savage, Stefan},
+  title = {Experimental Security Analysis of a Modern Automobile},
+  booktitle = {IEEE Symposium on Security and Privacy},
+  year = {2010},
+  pages = {447-462},
+  keywords = {attack, CAN-bus, in-vehicle-network}
+}
+
+@article{woo2015practical,
+  author = {Woo, Samuel and Jo, Hyo Jin and Lee, Dong Hoon},
+  title = {A Practical Wireless Attack on the Connected Car and Security Protocol for In-Vehicle CAN},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  year = {2015},
+  volume = {16},
+  number = {2},
+  pages = {993-1006},
+  keywords = {attack, authentication, CAN-bus, protocol, in-vehicle-network}
+}
+
+@inproceedings{radu2016leia,
+  author = {Radu, Andreea-Ina and Garcia, Flavio D.},
+  title = {LeiA: A Lightweight Authentication Protocol for CAN},
+  booktitle = {ESORICS 2016},
+  year = {2016},
+  pages = {283-300},
+  keywords = {authentication, protocol, CAN-bus, lightweight-cryptography, in-vehicle-network}
+}
+
+@article{groza2017libra,
+  author = {Groza, Bogdan and Murvay, Stefan and Van Herrewege, Anthony and Verbauwhede, Ingrid},
+  title = {LiBrA-CAN: Lightweight Broadcast Authentication for Controller Area Networks},
+  journal = {ACM Transactions on Embedded Computing Systems},
+  year = {2017},
+  volume = {16},
+  number = {3},
+  pages = {90},
+  keywords = {authentication, protocol, CAN-bus, lightweight-cryptography, in-vehicle-network}
+}
+
+@article{groza2018security,
+  author = {Groza, Bogdan and Murvay, Pal-Stefan},
+  title = {Security Solutions for the Controller Area Network},
+  journal = {IEEE Vehicular Technology Magazine},
+  year = {2018},
+  volume = {13},
+  number = {1},
+  pages = {40-47},
+  keywords = {survey, authentication, CAN-bus, protocol, in-vehicle-network}
+}
+
+@article{kim2021cybersecurity,
+  author = {Kim, Kyounggon and Kim, Jun Seok and Jeong, Seonghoon and Park, Jo-Hee and Kim, Huy Kang},
+  title = {Cybersecurity for Autonomous Vehicles: Review of Attacks and Defense},
+  journal = {Computers and Security},
+  year = {2021},
+  volume = {103},
+  pages = {102150},
+  keywords = {survey, autonomous-vehicles, attack, intrusion-detection, CAN-bus, VANET}
+}
+
+@article{aliwa2021cyberattacks,
+  author = {Aliwa, Emad and Rana, Omer and Perera, Charith and Burnap, Peter},
+  title = {Cyberattacks and Countermeasures for In-Vehicle Networks},
+  journal = {ACM Computing Surveys},
+  year = {2021},
+  volume = {54},
+  number = {1},
+  pages = {21},
+  keywords = {survey, CAN-bus, attack, authentication, intrusion-detection, in-vehicle-network}
+}
+
+@article{hasrouny2017vanet,
+  author = {Hasrouny, Hamssa and Samhat, Abed Ellatif and Bassil, Carole and Laouiti, Anis},
+  title = {VANet Security Challenges and Solutions: A Survey},
+  journal = {Vehicular Communications},
+  year = {2017},
+  volume = {7},
+  pages = {7-20},
+  keywords = {survey, VANET, attack, authentication, autonomous-vehicles}
+}
+
+`;
