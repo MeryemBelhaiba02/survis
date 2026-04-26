@@ -1,4 +1,4 @@
-defined_tags = {
+window.defined_tags = {
   'survey': {color: '#1f4e79'},
   'authentication': {color: '#2e75b6'},
   'CAN-bus': {color: '#375623'},
@@ -11,7 +11,7 @@ defined_tags = {
   'in-vehicle-network': {color: '#70ad47'}
 };
 
-bib = `
+window.bib = `
 
 @article{lotto2024survey,
   author = {Lotto, Alessandro and Marchiori, Francesco and Brighente, Alessandro and Conti, Mauro},
